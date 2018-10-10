@@ -2,10 +2,10 @@
   "name": "ebook1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon",
-    "start": "nodemon index.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -22,3 +22,4 @@
     "nodemon": "^1.18.4"
   }
 }
+

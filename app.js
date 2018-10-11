@@ -6,9 +6,11 @@ const strpe = require('stripe')('sk_test_sqRWr08xH3RuEiwCNZ69y1bP');
 
 const app = express();
 
+// Handlebars Middleware
 app.engine('.hbs', exphbs({ defaultLayout: 'main', extname: '.hbs' }));
 app.set('view engine', '.hbs');
 
+// Body Parser and Public Middleware
 app.use(express.static(`${__dirname}/public`));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());

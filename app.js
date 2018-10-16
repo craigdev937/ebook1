@@ -2,7 +2,6 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 const routes = require('./routes/index');
-const strpe = require('stripe')('sk_test_sqRWr08xH3RuEiwCNZ69y1bP');
 
 const app = express();
 
